@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="first">
+  <grid id="27dc6" binding="MainWindow" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="85" y="84" width="627" height="559"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="ef9da" class="javax.swing.JButton" binding="ToiletButton">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Туалет"/>
+        </properties>
+      </component>
+      <component id="24950" class="javax.swing.JButton" binding="ShopButton">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Магазин"/>
+        </properties>
+      </component>
+      <component id="7ff9d" class="javax.swing.JButton" binding="EventButton">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Событие"/>
+        </properties>
+      </component>
+      <component id="a4a46" class="javax.swing.JButton" binding="ParkingButton">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Парковка"/>
+        </properties>
+      </component>
+      <component id="22be1" class="javax.swing.JButton" binding="EmployessButton">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Сотрудник"/>
+        </properties>
+      </component>
+      <component id="2ff4f" class="javax.swing.JButton" binding="MallButton">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Торговый центр"/>
+        </properties>
+      </component>
+      <component id="2aaa5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Britannic Bold" size="26" style="1"/>
+          <text value="Добро Пожаловать!"/>
+        </properties>
+      </component>
+      <hspacer id="9a03d">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="2f182">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>
